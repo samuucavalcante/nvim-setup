@@ -1,0 +1,34 @@
+{
+  "languageserver": {
+    "python": {
+      "command": "pyls",
+      "filetypes": [
+        "python"
+      ],
+      "settings": {
+        "pyls.plugins.pyflakes.enabled": true
+      }
+    },
+    "typescript": {
+      "command": "typescript-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "filetypes": [
+        "typescript",
+        "typescriptreact",
+        "javascriptreact"
+      ],
+      "settings": {
+        "typescript.enable": true
+      }
+    }
+  },
+  "suggest.timeout": 500,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "javascript",
+    "typescript"
+  ],
+  "diagnostic.displayByAle": false
+}
